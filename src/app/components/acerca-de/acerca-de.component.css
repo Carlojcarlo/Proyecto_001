@@ -43,10 +43,20 @@ div{
 
 
 /*etiqueta nombre*/
-.nombre{
+.nombre {
+
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 30%;
+    color: rgb(0, 0, 0);
+    left: 70px;
+    
+    
+}
+.mi{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
     
 
-}
- 
