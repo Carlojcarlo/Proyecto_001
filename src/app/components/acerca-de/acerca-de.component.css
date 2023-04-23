@@ -1,39 +1,38 @@
 .row{
     padding:  20px;
-    margin: auto;
+    width: auto;
+
 }
 
 div{
-    background-color: #a1b5cb;
+    background-color: #363636;
     text-align: center;
     
    
 }
 /* Estilo foto de perfil*/
-@media (min-width:576px){
+@media (min-width:400px){
  #fotodeperfil{
-    position: absolute;
-    width :20%;
-    
-    border-radius: 5%;
+   position: relative;
+    width: 90%;
+    border-radius: 10%;
     box-shadow: 3px 3px 3px rgb(108, 108, 108);
-    right:80% ;
-    top: 650px;
+    left: -2%;
+    top: -40%;
  }
 
 
  
  }  
 
- @media (max-width:576px){
+ @media (max-width:400px){
     #fotodeperfil{
-       position: absolute;
-       width :20%;
-       
-       border-radius: 5%;
-       box-shadow: 3px 3px 3px rgb(108, 108, 108);
-       right:80% ;
-       top: 650px;
+        position: relative;
+        width: 90%;
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px rgb(108, 108, 108);
+        left: 10%;
+        top: -60%;
     }
    
    
@@ -47,14 +46,17 @@ div{
 
     font-size: 20px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(246, 243, 243);
     left: 70px;
-    
-    
 }
-.mi{
-    font-weight: bold;
-    font-style: oblique;
+.nombre2{
+    color: rgb(246, 243, 243);
+}
+.nombre3{
+    color: rgb(246, 243, 243);
+}
+.nombre4{
+    color: rgb(246, 243, 243);
 }
 
 
